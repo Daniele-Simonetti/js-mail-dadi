@@ -6,6 +6,7 @@
 
 // 1.chiedo all'utente di inserire la sua mail
 const Mail = prompt('Inserisci la tua mail');
+console.log(Mail);
 // 2.creo un array con le mail verificate
 const MailsVerificate = ['mail 1', 'mail 2', 'mail 3'];
 // 3.inserisco la variabile true/false per non far cercare ogni singolo elemento del ciclo
